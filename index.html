@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sportify - Your Fevrite Song IS Here</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.png" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <a href="index.html"
+            ><img src="logo.png" width="40" height="40" alt="Sportify"
+          /></a>
+          <span><a href="index.html" class="linkSpotify">Spotify</a> </span>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="continer">
+      <div class="songList">
+        <h1
+          style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+        >
+          Your Songs Are Here
+        </h1>
+        <div class="songitems">
+          <div class="songitem">
+            <img class="covers-img" src="covers/1.jpeg" alt="" />
+            <span class="SongName">Love me More - NCS</span>
+            <span
+              ><span class="time">4:55</span>
+              <i
+                id="0"
+                class="songItemPlay fa-regular fa-xl fa-circle-play pointer"
+              ></i
+            ></span>
+          </div>
+          <div class="songitem">
+            <img class="covers-img" src="covers/2.jpeg" alt="" />
+            <span class="SongName">Love me More - NCS</span>
+            <span
+              ><span class="time">4:55</span>
+              <i
+                id="1"
+                class="songItemPlay fa-regular fa-xl fa-circle-play pointer"
+              ></i
+            ></span>
+          </div>
+          <div class="songitem">
+            <img class="covers-img" src="covers/3.jpeg" alt="" />
+            <span class="SongName">Love me More - NCS</span>
+            <span
+              ><span class="time">4:55</span>
+              <i
+                id="2"
+                class="songItemPlay fa-regular fa-xl fa-circle-play pointer"
+              ></i
+            ></span>
+          </div>
+          <div class="songitem">
+            <img class="covers-img" src="covers/4.jpeg" alt="" />
+            <span class="SongName">Love me More - NCS</span>
+            <span
+              ><span class="time">4:55</span>
+              <i
+                id="3"
+                class="songItemPlay fa-regular fa-xl fa-circle-play pointer"
+              ></i
+            ></span>
+          </div>
+          <div class="songitem">
+            <img class="covers-img" src="covers/5.jpeg" alt="" />
+            <span class="SongName">Love me More - NCS</span>
+            <span
+              ><span class="time">4:55</span>
+              <i
+                id="4"
+                class="songItemPlay fa-regular fa-xl fa-circle-play pointer"
+              ></i
+            ></span>
+          </div>
+          <div class="songitem">
+            <img class="covers-img" src="covers/6.png" alt="" />
+            <span class="SongName">Love me More - NCS</span>
+            <span
+              ><span class="time">4:55</span>
+              <i
+                id="5"
+                class="songItemPlay fa-regular fa-xl fa-circle-play pointer"
+              ></i
+            ></span>
+          </div>
+          <div class="songitem">
+            <img class="covers-img" src="covers/7.jpeg" alt="" />
+            <span class="SongName">Love me More - NCS</span>
+            <span
+              ><span class="time">4:55</span>
+              <i
+                id="6"
+                class="songItemPlay fa-regular fa-xl fa-circle-play pointer"
+              ></i
+            ></span>
+          </div>
+          <div class="songitem">
+            <img class="covers-img" src="covers/8.webp" alt="" />
+            <span class="SongName">Love me More - NCS</span>
+            <span
+              ><span class="time">4:55</span>
+              <i
+                id="7"
+                class="songItemPlay fa-regular fa-xl fa-circle-play pointer"
+              ></i
+            ></span>
+          </div>
+          <div class="songitem">
+            <img class="covers-img" src="/covers/9.jpg" alt="" />
+            <span class="SongName">Love me More - NCS</span>
+            <span
+              ><span class="time">4:55</span>
+              <i
+                id="8"
+                class="songItemPlay fa-regular fa-xl fa-circle-play pointer"
+              ></i
+            ></span>
+          </div>
+          <div class="songitem">
+            <img class="covers-img" src="covers/10.avif" alt="" />
+            <span class="SongName">Love me More - NCS</span>
+            <span
+              ><span class="time">4:55</span>
+              <i
+                id="9"
+                class="songItemPlay fa-regular fa-xl fa-circle-play pointer"
+              ></i
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="banner"></div>
+    </div>
+
+    <div class="bottom">
+      <div class="TimeContainer">
+        <p class="currentMusicTime">0 : 00</p>
+        <p class="totalDurationOfMusic">4 : 29</p>
+      </div>
+      <input
+        type="range"
+        name="ProgressBar"
+        id="ProgressBar"
+        min="0"
+        max="100"
+        value="0"
+      />
+      <div class="icones">
+        <i id="perivous" class="fa-solid fa-2xl fa-backward-step"></i>
+        <i class="fa-regular fa-2xl fa-circle-play" id="MasterPLay"></i>
+        <i id="next" class="fa-solid fa-2xl fa-forward-step"></i>
+      </div>
+      <div class="songInfo">
+        <img src="playing.gif" width="50px" alt="" id="gif" />
+        <span id="masterSongName">Ae_Dil_Hai_Muskil</span>
+      </div>
+      <div class="controlSound">
+        <i id="soundIcone" class="fa-solid fa-volume-high pointer"></i>
+        <input
+          type="range"
+          name="soundRange"
+          id="soundRange"
+          min="0"
+          max="10"
+          value="7"
+          class="pointer"
+        />
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/76159ef34c.js"
+      defer
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
