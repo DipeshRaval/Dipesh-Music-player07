@@ -1,5 +1,3 @@
-console.log("Hello JS");
-
 // intialize a variable
 let songIndex = 0;
 let audioEle = new Audio("Songs/Ae_Dil_Hai_Muskil.mp3");
