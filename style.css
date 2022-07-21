@@ -223,6 +223,10 @@ h1 {
 }
 
 @media only screen and (max-width: 790px) {
+  body {
+    background-color: black;
+  }
+
   .continer {
     width: 100vw;
     margin: 0px auto;
@@ -309,6 +313,10 @@ h1 {
 }
 
 @media only screen and (max-width: 520px) {
+  body {
+    background-color: black;
+  }
+
   nav ul li {
     width: 115px;
   }
@@ -346,6 +354,10 @@ h1 {
 }
 
 @media only screen and (max-width: 400px) {
+  body {
+    background-color: black;
+  }
+
   .continer {
     margin: 0px auto;
     padding: 10px 20px;
